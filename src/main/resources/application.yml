@@ -1,3 +1,7 @@
+server:
+  # all REST services have prefix /spring-boot-sample
+  contextPath: /spring-boot-quartz-sample
+  port: 8080
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
